@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Model / cache
+*.ckpt
+*.safetensors
+*.bin
+.cache/
+diffusers_cache/
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
